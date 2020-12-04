@@ -1,0 +1,70 @@
+#color{
+  width:100px;
+}
+#dropdown .inp{
+  width:80px;
+}
+#time{
+  text-indent:19px;
+}
+    /* Dropdown Button */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+#dropdown:hover .dropdown-content {
+  display: block; transition: all 0.3s ease;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+li button{
+  color:red;
+  border:0px;
+  background:inherit;
+  text-decoration:capitalize;
+}
+li:select{
+  background-color:#f0f0f0;
+  color:#0f0f0f;
+}
+button{
+  background-color:white;
+}
+#time{
+  color:white;
+  position:relative;
+}
+span{
+  color:green;
+}
